@@ -13,7 +13,6 @@
 
 ``` 
 $ vi first.txt
-
 ```
 press i
 
@@ -22,10 +21,8 @@ press i
 <b>Shift + : </b> <br> <b>wq e</b> 
 
 ```
-
 $ ls
 first.txt
-
 
 $ ls -l
 total 4
@@ -35,20 +32,22 @@ total 4
 as we can see in above that no execution permit is present so we have to give it
 
 ```
-
 $ chmod +x first.txt  
 
 $ ls -l
 total 4
 -rwxr-xr-x 1 root root 45 Apr 26 15:52 first.txt
-
 ```
 Executing Shell Script File
 
 ```
-
 $ ./first.txt 
 hello world
 This is new world
-
 ```
+
+now the problem is you can use text file but the problem is you wont be able to find error easily by colours because it will show White text So for that you have to create .sh file
+
+![alt text](image-2.png)
+
+## Shebang
